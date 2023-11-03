@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "refactor-practice"
+version = "0.1.0"
+description = "Refactoring practice with a simple votations app"
+authors = ["Enrique <enrique.flores@utec.edu.pe>"]
+readme = "README.md"
+packages = [{include = "refactor_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
